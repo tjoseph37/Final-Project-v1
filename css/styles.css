@@ -1,0 +1,241 @@
+html {
+    min-height: 100%;
+}
+body {
+    background-color: aliceblue;/*Fall back background*/
+    background: linear-gradient(aliceblue , steelblue) ;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 21pt;
+}
+.wrapper {
+    background-color: white;
+    padding: 1em; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 55em;
+    overflow: hidden;
+    box-shadow: 0em 0em 0.75em 0.25em rgb(80,80,80);
+}
+
+/*Image banner*/
+.bookHeader {
+    overflow: hidden;
+    max-width: 100%;
+    padding-bottom: 3px;
+}
+/*navigation bars*/
+.navigation {
+    border-top: 3px solid blue;
+    border-bottom: 1px solid #c8c8c8;
+   
+}
+
+/*Links*/
+.navBar {
+    color:blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color:#f7f7f7;
+    border-right: 1px solid #c8c8c8;
+    font-size: 1.5em;
+    padding: 0 0.5em;
+
+}
+
+.navBar:hover{
+    color:#f7f7f7;
+    background-color: blue;
+}
+
+/*Main Section and Links*/
+main {
+    float:left;
+    width: 62.5%;
+    border-radius: 15px;
+    background-color: #cccccc;
+    margin-bottom: 2em;
+}
+.amazon, .schoolLinks{
+    text-decoration: none;
+    color:red;
+    font-weight: bold;
+}
+.amazon:hover, .schoolLinks:hover{
+    text-decoration: underline;
+}
+
+.amazon:visited, .schoolLinks:visited{
+    color:magenta;
+}
+
+/*Headings*/
+.contactBanner{
+    background-color: blue;
+    color: white;
+}
+
+h1 {
+    size: 1.5em;
+    text-shadow: 2px 0px  dimgrey;
+    color: dimgrey;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    color:darkblue;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contactBanner{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/*Aside*/
+aside {
+    width: 28%;
+    float: right;
+    border-radius: 15px;
+    background-color: #f7f7f7;
+    border-style: groove;
+}
+
+.bookLinks{
+    text-decoration: none;
+    color:darkblue;
+    text-align: center;
+}
+
+.bookLinks:hover{
+    text-decoration: underline;
+}
+
+.bookList{
+    list-style: none;
+    padding:0;
+    margin:0.25em;
+}
+
+/*Footer*/
+.footerNav {
+    border-bottom:1px #c8c8c8;
+    font-size: 1.5em;
+}
+footer {
+    font-size: small;  
+    color: dimgrey;
+    clear:both; 
+    text-align: center;
+    border-top: 2px solid gray;
+    margin-top: 2em;
+    padding-top: 1em;
+}
+
+.footerLink {
+    padding:0.5em;
+}
+
+.footerLink:hover{
+    opacity: 0.7;
+}
+
+.footerLink2 {
+    padding-right:0.5em;
+    text-decoration: none;
+}
+
+.footerBorder{
+    border-right: 1px solid dimgrey;
+}
+.footerLink2:hover {
+    text-decoration: underline;
+}
+
+/*Paragraph and List*/
+.description, .datePosted,.bookImage, .bookDescription1, .bookDescription, .about, .contactWarning, .contact{
+    margin: 1em;
+}
+.datePosted{
+    color: grey;
+}
+.description{
+    border-bottom: 2px solid gray;
+    padding-bottom: 1em;
+}
+.bookDescription{
+    padding-bottom: 4em;
+    padding-top: 1.5em;
+    border-bottom: 2px solid gray;
+}
+
+.bookDescription1{
+    padding-bottom: 4em;
+    padding-top: 1.5em;
+}
+
+.bookImage{
+    float: left;
+}
+.contactWarning{
+    color:red;
+    font-weight: bold;
+}
+/*Table*/
+table{
+    font: 'Trebuchet MS';
+    font-size: 0.85em;
+    background-color: white;
+    border:2px solid dodgerblue;
+    margin:2em auto ;
+    border-collapse: collapse;
+    width: 80%;
+}
+.header{
+    background-color: dodgerblue;
+    color: white;
+    text-align: left;
+}
+
+.altrow{
+    background: linear-gradient(aliceblue, powderblue);
+}
+
+.altrow2{
+    background-color: white;
+}
+
+td, th{
+    border:solid 2px dodgerblue ;
+}
+
+/*Form*/
+form{
+    font-family: Verdana,Tahoma, sans-serif;
+    background-color: white;
+    margin: auto 1em;
+    text-align: left;
+}
+
+.submit{
+    background-color:dodgerblue;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    size: 2em;
+    line-height: 2em;
+    margin: 1em;
+}
+
+#firstName, #lastName, #email, #telephone, #contact{
+    line-height: 2em;
+    margin-left:15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[type="email"],input[type="tel"], input[type="text"], textarea{
+   margin-bottom: 2em;
+   display: inline-block;
+}

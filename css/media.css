@@ -1,0 +1,38 @@
+@media  (max-width:30em) {
+    main.main{
+        border-radius: 0; 
+    }
+
+    a.navBar{
+        width:100%;
+        display: block;
+        border-bottom: 1px solid gray;
+        text-align: center;
+    }
+
+}
+
+@media  (min-width:30em) and (max-width:47em){
+    a.navBar{
+        width:100%;
+        display: block;
+        border-bottom: 1px solid gray;
+        text-align: center;
+    }
+    
+   div.wrapper{
+       box-sizing: border-box;
+       width: 100%;
+   }
+   main.main{
+        border-radius: 0;
+        width:100%;
+  }
+
+  div>aside{
+      float: none;
+      border: none;
+      width:100%;
+      text-align: center;
+  }
+}
